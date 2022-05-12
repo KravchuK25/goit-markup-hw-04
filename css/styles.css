@@ -134,11 +134,18 @@ ul{
 .hero{
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #2F303A;
-    background-image: url(../hero/hero.jpg.jpg);
-    background-image: linear-gradient(to right #2F303A);
+
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../hero/hero.jpg.jpg);
+    
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 
      
 }
@@ -271,7 +278,13 @@ margin-right: 0;
     background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
-}
+   
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   }
 .team .subtitle{
     margin-top: 0;
     margin-bottom: 50px;
@@ -283,11 +296,17 @@ margin-right: 0;
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+   
     
 }
 .staff .item{
+   
     margin-right: 30px;
     text-align: center;
+    background-color:var(--two-accent-color);
+    box-shadow: 0px 1px 3px rgb(0 0 0 .12), 0px 1px 1px rgb(0 0 0 .14), 0px 2px 1px rgb(0 0 0 .2);
+    border-radius: 0 0 4px 4px;
+
 }
 .staff .item:last-child{
     margin-right: 0;
@@ -313,6 +332,9 @@ footer{
     padding-top: 60px;
     padding-bottom: 60px;
     background-color:  #2F303A;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .span-footer{
     color: var(--two-accent-color);
@@ -391,17 +413,44 @@ address .address:focus{
     color: var(--two-accent-color);
     background-color: var(--accent-color);
 }
+.img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ .container .jub{ 
+    
+
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    
+   }
+
 .job .title{
-font-size: 18px;
-line-height: 2;
-margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 4px;
 }
 .job{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    
+    list-style: none;
+    margin-top: -30px;
+    
+}
+.job > .item{
+    flex-basis: calc(100% / 3 - 30px);
+
+    margin-left: 30px;
+    margin-top: 30px;
 }
 .job .text{
     text-align: left;
@@ -410,15 +459,21 @@ margin-bottom: 4px;
     margin-right: 0;
 }
 .job .item{
-    margin-bottom: 30px;
-}
+   
+    border: 1px solid #EEEEEE;
+    margin-left: 0;
+ 
+    }
 .job .item:nth-last-child(-n + 3){
     margin-bottom: 0;
 }
 .job-text{
     padding: 20px 24px;
-    border-left: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
-   
 }
+.job .item *{
+        display: block;
+   }
+   .job .item:hover,
+   .job .item:focus{
+       
+   }
