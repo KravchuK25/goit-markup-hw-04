@@ -421,6 +421,7 @@ fill: var(--two-accent-color);
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    
 
 }
 .item-clients:not(:last-child){
