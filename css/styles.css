@@ -454,7 +454,7 @@ footer{
     margin-bottom: 9px;
     font-style: normal;
     color: var(--two-accent-color);
-    font-weight: 500;
+    
 }
 .address:hover,
 address .address:focus{
@@ -485,6 +485,61 @@ address .address:focus{
     margin-bottom: 9px;
    
 }
+ /* join */
+.footer .container{
+    display: flex;
+    align-items: center
+}
+ .join-footer {
+    color: var(--two-accent-color); 
+    line-height: 1.14;
+    text-transform: uppercase;
+   
+    }
+
+.team-join{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+   }
+   
+.join-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    background-color: #ffffff10;
+    color: var(--two-accent-color);
+}
+.item-join:not(:last-child){
+    margin-right: 10px;
+}
+.join-link:hover, 
+.join-link:focus 
+{
+    background-color: var(--accent-color); 
+}
+.svg-join{
+        fill: currentColor;
+}
+.container-footer{
+    width: 231px;
+    
+   
+}
+.container-footer:not(:last-child){
+    margin-right: 70px;
+   
+}
+.join-container{
+    width: 206px;
+}
+
+
 
 /* Portfolio*/
 
@@ -590,3 +645,5 @@ address .address:focus{
     0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
    }       
+
+  
