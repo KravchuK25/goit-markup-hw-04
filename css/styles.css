@@ -11,7 +11,7 @@
 .body{
     
     color: var(--one-text-color);
-    max-width: 1600px;
+   
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -318,8 +318,6 @@ margin-right: 0;
     padding-top: 94px;
     padding-bottom: 94px;
    
-    max-width: 1600px;
-   
     margin-left: auto;
     margin-right: auto;
     
@@ -412,6 +410,7 @@ margin-right: 0;
     justify-content: center;
     align-items: center;
     padding: 0;
+    margin: 0;
 }
 
 .clients-link{
@@ -423,6 +422,7 @@ margin-right: 0;
     color: #AFB1B8;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+   
 }
 .item-clients:not(:last-child){
     margin-right: 30px;
@@ -435,7 +435,10 @@ margin-right: 0;
     .svg-clients{
     fill: currentColor
     }
-
+.clients .subtitle{
+   margin: 0;
+   margin-bottom: 50px;
+}
 
 /*footer*/
 
@@ -443,7 +446,7 @@ footer{
     padding-top: 60px;
     padding-bottom: 60px;
     background-color:  #2F303A;
-    max-width: 1600px;
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -488,7 +491,7 @@ address .address:focus{
  /* join */
 .footer .container{
     display: flex;
-    align-items: center
+    align-items: baseline;
 }
  .join-footer {
     color: var(--two-accent-color); 
@@ -643,7 +646,7 @@ address .address:focus{
 .job-text{
     padding: 20px 24px;
 }
-.job .item *{
+.job .item {
      display: block;
 }
    .job .item:hover,
