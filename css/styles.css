@@ -352,7 +352,7 @@ margin-right: 0;
 }
 
 .team .text{
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 .name{
     margin-top: 0;
@@ -635,9 +635,7 @@ address .address:focus{
     margin-right: 0;
 }
 .job .item{
-   
-    border: 1px solid #EEEEEE;
-    margin-left: 0;
+       margin-left: 0;
  
     }
 .job .item:nth-last-child(-n + 3){
@@ -645,15 +643,24 @@ address .address:focus{
 }
 .job-text{
     padding: 20px 24px;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
 }
-.job .item {
-     display: block;
+.job .link{
+    display: block;
+
 }
-   .job .item:hover,
-   .job .item:focus{
+
+   .job .link:hover,
+   .job .link:focus{
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
    }       
-
-  
+   .job .link{
+    text-decoration: none;
+}
+.job .text{
+    color: var(--one-text-color)
+}
