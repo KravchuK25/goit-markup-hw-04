@@ -289,11 +289,12 @@ ul{
     text-align: center;
 }
 
-/*job*/
-.job-container {
+/*distribution*/
+
+.distribution-container {
     padding-bottom: 94px;
 }
-.job-container .subtitle{
+.distribution-container .subtitle{
     margin-top: 0;
     margin-bottom: 50px;
 }
@@ -305,13 +306,18 @@ ul{
     margin-bottom: 0;
     
 }
-.image .item{
+.distribution-item{
     margin-right: 30px;
     
 }
-.image .item:last-child{
+.distribution-item:last-child{
 margin-right: 0;
 }
+
+
+
+
+
 /*team*/
 .team{
     background-color: #F5F4FA;
